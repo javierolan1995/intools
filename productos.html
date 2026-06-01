@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Productos – INTOOLS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container nav-inner">
+    <a href="index.html" class="logo" aria-label="INTOOLS">
+      <img src="assets/logo/logo_intools_dark.svg" alt="INTOOLS">
+    </a>
+    <ul class="nav-links">
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="productos.html" style="color: var(--celeste);">Productos</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="index.html#marcas">Marcas</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+    <a href="index.html#contacto" class="nav-cta">Solicitar Cotización</a>
+    <button class="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="about-page-hero">
+  <div class="container">
+    <div class="about-page-hero-grid">
+      <div class="about-page-hero-content">
+        <span class="tag">Catálogo Técnico</span>
+        <h1 style="margin-top: 16px;">Nuestros <em>Productos</em></h1>
+        <p>Suministramos componentes y equipos certificados de alto rendimiento para las operaciones industriales más exigentes. Trabajamos bajo los más altos estándares mundiales para garantizar confiabilidad y seguridad en su cadena de suministro.</p>
+      </div>
+      <div class="about-page-hero-visual">
+        <img src="assets/about_warehouse.png" alt="Almacén de Suministro Industrial INTOOLS" class="about-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS DETALLADOS -->
+<section class="detail-section">
+  <div class="container">
+    
+    <!-- BUSCADOR -->
+    <div class="search-container">
+      <div class="search-wrapper">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="product-search" placeholder="Buscar productos (ej. bridas, bombas, tubería)...">
+      </div>
+    </div>
+    
+    <!-- 1. Bridas Adaptadoras y Uniones Giratorias -->
+    <div class="detail-item" id="bridas-uniones">
+      <div class="detail-item-header">
+        <h3>01. Bridas Adaptadoras y Uniones Giratorias</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Conexiones bridadas de alta resistencia fabricadas bajo normas API e ISO, diseñadas para soportar condiciones extremas de presión, impacto y corrosión. Nuestras uniones giratorias facilitan el movimiento multidireccional en líneas de flujo crítico sin comprometer la hermeticidad del sistema.</p>
+          <ul class="detail-features-list">
+            <li>Fabricadas en acero aleado forjado de alta tenacidad.</li>
+            <li>Cumplimiento estricto de normas API 6A y NACE MR0175.</li>
+            <li>Sellos elastoméricos de alto rendimiento para servicio amargo.</li>
+            <li>Tratamientos térmicos certificados para resistencia al desgaste.</li>
+          </ul>
+          
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Medida Nominal</th>
+                  <th>Tipo de Conexión</th>
+                  <th>Clasificación de Presión (PSI)</th>
+                  <th>Material Estándar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2" a 4"</td>
+                  <td>Bridada API 6A / Rosca LP</td>
+                  <td>5,000 a 15,000 PSI</td>
+                  <td>Acero AISI 4130 Forjado</td>
+                </tr>
+                <tr>
+                  <td>3" a 6"</td>
+                  <td>Unión de Golpe / Unión Giratoria</td>
+                  <td>10,000 a 15,000 PSI</td>
+                  <td>Acero AISI 4140 Aleado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Tubería 1502 y Accesorios -->
+    <div class="detail-item" id="tuberia-1502">
+      <div class="detail-item-header">
+        <h3>02. Tubería 1502 y Accesorios</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Componentes de paso integral para control de fluidos a alta presión. Ampliamente utilizados en operaciones de cementación, estimulación y fracturamiento hidráulico en pozos petroleros. Contamos con stock de entrega inmediata para asegurar sus proyectos sin contratiempos.</p>
+          <ul class="detail-features-list">
+            <li>Presiones de operación de hasta 15,000 PSI de presión de trabajo.</li>
+            <li>Tubería recta de alta presión en diversas longitudes.</li>
+            <li>Accesorios complementarios: Codos de flujo, Tes, Cruces y Ys.</li>
+            <li>Inspección de calidad por ultrasonido y partículas magnéticas.</li>
+          </ul>
+
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Componente</th>
+                  <th>Diámetro Nominal</th>
+                  <th>Presión de Trabajo</th>
+                  <th>Tipo de Sello / Conexión</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tubo Recto (Pup Joint)</td>
+                  <td>2", 3" y 4"</td>
+                  <td>15,000 PSI CWP</td>
+                  <td>Unión de Golpe Fig. 1502 (M/F)</td>
+                </tr>
+                <tr>
+                  <td>Codo de Flujo (Chiksan)</td>
+                  <td>2" y 3"</td>
+                  <td>15,000 PSI CWP</td>
+                  <td>Estilo 10, 50, 30 Fig. 1502</td>
+                </tr>
+                <tr>
+                  <td>Tes, Cruces y Adaptadores</td>
+                  <td>2" a 4"</td>
+                  <td>10,000 a 15,000 PSI</td>
+                  <td>Conexión Fig. 1502 / API 6A</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Juntas de Expansión Metálicas y de Hule -->
+    <div class="detail-item" id="juntas-expansion">
+      <div class="detail-item-header">
+        <h3>03. Juntas de Expansión Metálicas y de Hule</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Soluciones técnicas indispensables para absorber dilataciones térmicas, desalineaciones axiales/laterales y vibraciones en sistemas de tuberías industriales. Protegen equipos sensibles como bombas y compresores de esfuerzos de fatiga y cargas estructurales.</p>
+          <ul class="detail-features-list">
+            <li>Juntas metálicas con fuelles en Acero Inoxidable (SS304, SS316L, Inconel).</li>
+            <li>Juntas de hule (Neopreno, EPDM, Nitrilo) de arco simple o múltiple.</li>
+            <li>Resistencia a temperaturas operativas desde -50°C hasta más de 600°C.</li>
+            <li>Diseño personalizado bajo estándares EJMA (Expansion Joint Manufacturers Assoc.).</li>
+          </ul>
+
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Tipo de Junta</th>
+                  <th>Medidas (DN)</th>
+                  <th>Rango de Temperatura</th>
+                  <th>Movimientos que Absorbe</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Metálica Bridada</td>
+                  <td>DN 2" a DN 48"</td>
+                  <td>-200°C a 800°C</td>
+                  <td>Axial, Lateral y Angular</td>
+                </tr>
+                <tr>
+                  <td>Hule Esférica (EPDM/Nitrilo)</td>
+                  <td>DN 1.5" a DN 24"</td>
+                  <td>-20°C a 115°C</td>
+                  <td>Compresión, Elongación y Vibración</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Mangueras Metálicas Flexibles -->
+    <div class="detail-item" id="mangueras-metalicas">
+      <div class="detail-item-header">
+        <h3>04. Mangueras Metálicas Flexibles</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Mangueras corrugadas en acero inoxidable protegidas con malla trenzada exterior. Adecuadas para la transferencia de gases, vapor, hidrocarburos, y fluidos corrosivos bajo condiciones extremas donde las mangueras de hule convencionales fallarían.</p>
+          <ul class="detail-features-list">
+            <li>Fuelle corrugado interior en acero inoxidable AISI 321 y AISI 316L.</li>
+            <li>Una o doble malla trenzada en acero inoxidable AISI 304 para alta presión.</li>
+            <li>Conexiones soldadas TIG bajo normas internacionales (NPT, Flanges, JIC).</li>
+            <li>Excelente resistencia al vacío total y compatibilidad química óptima.</li>
+          </ul>
+
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Diámetro</th>
+                  <th>Presión Máx. Trabajo (SS316)</th>
+                  <th>Tipo de Conexión en Extremos</th>
+                  <th>Normas de Manufactura</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1/2" a 2"</td>
+                  <td>Hasta 1,500 PSI</td>
+                  <td>Macho NPT / Hembra Giratoria JIC</td>
+                  <td>ISO 10380</td>
+                </tr>
+                <tr>
+                  <td>2.5" a 8"</td>
+                  <td>Hasta 600 PSI</td>
+                  <td>Bridas ANSI 150# / 300#</td>
+                  <td>ISO 10380 / ASME B16.5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Bombas Neumáticas de Diafragma -->
+    <div class="detail-item" id="bombas-diafragma">
+      <div class="detail-item-header">
+        <h3>05. Bombas Neumáticas de Diafragma</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Equipos autorebostantes para el bombeo seguro de fluidos viscosos, corrosivos, abrasivos y con sólidos en suspensión. Funcionan 100% con aire comprimido, lo que las hace intrínsecamente seguras y aptas para atmósferas explosivas (ATEX).</p>
+          <ul class="detail-features-list">
+            <li>Cuerpo disponible en Aluminio, Hierro Dúctil, Acero Inoxidable, PP y PVDF.</li>
+            <li>Diafragmas de alta duración en PTFE (Teflón), Santopreno, Hytrel y Buna-N.</li>
+            <li>Diseño libre de sellos mecánicos para evitar fugas costosas o peligrosas.</li>
+            <li>Capacidad de funcionamiento en seco y auto-cebado inmediato.</li>
+          </ul>
+
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Tamaño Conexión</th>
+                  <th>Caudal Máximo (GPM / LPM)</th>
+                  <th>Sólidos Máx. Soportados</th>
+                  <th>Materiales Cuerpo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1"</td>
+                  <td>45 GPM / 170 LPM</td>
+                  <td>1/8" (3.2 mm)</td>
+                  <td>Aluminio / PP / Acero Inox</td>
+                </tr>
+                <tr>
+                  <td>2"</td>
+                  <td>150 GPM / 568 LPM</td>
+                  <td>1/4" (6.3 mm)</td>
+                  <td>Aluminio / Hierro Dúctil / PVDF</td>
+                </tr>
+                <tr>
+                  <td>3"</td>
+                  <td>275 GPM / 1040 LPM</td>
+                  <td>3/8" (9.5 mm)</td>
+                  <td>Aluminio / Hierro / Acero Inox</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Manómetros y Termómetros Bimetálicos -->
+    <div class="detail-item" id="instrumentacion">
+      <div class="detail-item-header">
+        <h3>06. Manómetros y Termómetros Bimetálicos</h3>
+      </div>
+      <div class="detail-item-grid">
+        <div>
+          <p class="detail-description">Instrumentos de medición industrial confiables y robustos para monitorear presión y temperatura. Diseñados con cajas de acero inoxidable y llenado de líquido amortiguador (glicerina/silicón) para resistir pulsaciones mecánicas e intemperie.</p>
+          <ul class="detail-features-list">
+            <li>Cajas de acero inoxidable AISI 304 herméticamente selladas.</li>
+            <li>Elementos de medición (Bourdon y espiral bimetálica) de alta precisión.</li>
+            <li>Conexiones inferiores o posteriores roscadas (NPT).</li>
+            <li>Certificados de calibración de fábrica disponibles bajo requerimiento.</li>
+          </ul>
+
+          <div class="spec-table-container">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>Instrumento</th>
+                  <th>Diámetro Carátula</th>
+                  <th>Rango de Medida común</th>
+                  <th>Conexión y Material</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Manómetro de Carátula</td>
+                  <td>2.5", 4" y 6"</td>
+                  <td>Vacío a 20,000 PSI</td>
+                  <td>1/4" y 1/2" NPT (Inox / Bronce)</td>
+                </tr>
+                <tr>
+                  <td>Termómetro Bimetálico</td>
+                  <td>3" y 5"</td>
+                  <td>-50°C a 500°C</td>
+                  <td>1/2" NPT Conexión Ajustable (Inox)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECCION PDF DESCARGAS -->
+<section class="pdf-section">
+  <div class="container">
+    <div class="section-head" style="margin-bottom: 24px;">
+      <span class="tag tag-light">Documentación</span>
+      <h2>Descarga de Catálogos y Fichas</h2>
+      <p>Acceda a las especificaciones técnicas completas y planos dimensionales en formato PDF para sus proyectos de ingeniería y compras.</p>
+    </div>
+    <div class="pdf-grid">
+      
+      <div class="pdf-card">
+        <div class="pdf-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="pdf-info">
+          <h3>Catálogo Completo de Productos</h3>
+          <p>Brochure corporativo con todas las líneas de suministro de INTOOLS (2026).</p>
+          <a href="#" class="pdf-btn">
+            <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar PDF (6.4 MB)
+          </a>
+        </div>
+      </div>
+
+      <div class="pdf-card">
+        <div class="pdf-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="pdf-info">
+          <h3>Ficha Técnica Bridas y Tubería 1502</h3>
+          <p>Especificaciones detalladas de presiones y compatibilidad química.</p>
+          <a href="#" class="pdf-btn">
+            <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar PDF (3.2 MB)
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-main">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="INTOOLS">
+          <img src="assets/logo/logo_intools_dark.svg" alt="INTOOLS">
+        </a>
+        <p>Líderes en suministro de herramientas y equipo industrial para los sectores más exigentes de México y el mundo.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Productos</h4>
+        <ul>
+          <li><a href="productos.html#bridas-uniones">Bridas y Uniones</a></li>
+          <li><a href="productos.html#tuberia-1502">Tubería 1502</a></li>
+          <li><a href="productos.html#juntas-expansion">Juntas de Expansión</a></li>
+          <li><a href="productos.html#mangueras-metalicas">Mangueras Metálicas</a></li>
+          <li><a href="productos.html#bombas-diafragma">Bombas Neumáticas</a></li>
+          <li><a href="productos.html#instrumentacion">Instrumentación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="servicios.html#maquinado">Maquinado de Piezas</a></li>
+          <li><a href="servicios.html#generadores">Reparación de Equipos</a></li>
+          <li><a href="servicios.html#renta">Renta de Maquinaria</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="nosotros.html">Quiénes Somos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="index.html#marcas">Marcas</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Redes sociales</h4>
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/Intoolsmx" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram de INTOOLS">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn de INTOOLS">LinkedIn</a></li>
+          <li><a href="#" aria-label="TikTok de INTOOLS">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="current-year"></span> INTOOLS. Todos los derechos reservados. Diseñado por <a href="https://javierolan.com" target="_blank" rel="noopener noreferrer" style="color: var(--celeste); text-decoration: none; font-weight: 600;">Javier Olan</a></p>
+    <span class="ft-right">Centro, Tabasco · México</span>
+  </div>
+</footer>
+
+<!-- BOTÓN FLOTANTE DE WHATSAPP -->
+<a href="https://wa.me/529931941127?text=Hola%20INTOOLS%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20y%20cotizaci%C3%B3n%20sobre..." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contacto por WhatsApp">
+  <div class="whatsapp-pulse"></div>
+  <svg viewBox="0 0 24 24" class="whatsapp-icon" fill="currentColor">
+    <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.758.459 3.473 1.332 4.987l-1.416 5.176 5.297-1.39c1.464.798 3.111 1.217 4.775 1.217 5.506 0 9.988-4.482 9.988-9.988S17.518 2 12.012 2zm6.262 14.288c-.259.73-.131 1.297-.435 1.724-.316.442-.774.794-1.344.91-.569.117-1.129.176-3.805-.933-2.676-1.109-4.321-3.83-4.453-4.008-.133-.178-1.069-1.423-1.069-2.715 0-1.291.67-1.928.932-2.195.263-.267.575-.334.767-.334h.547c.175 0 .416-.067.65.498.263.633.9 2.195.976 2.348.077.153.131.335.032.533-.1.198-.152.335-.303.51-.152.176-.32.392-.457.525-.152.152-.313.319-.133.626.18.307.798 1.312 1.713 2.127.876.782 1.636 1.026 1.868 1.144.232.119.367.102.502-.05.137-.152.59-.687.747-.92.158-.233.316-.198.532-.119.217.079 1.378.65 1.616.769.239.119.398.178.456.277.06.1.06.568-.198 1.298z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
